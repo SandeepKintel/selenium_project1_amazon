@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case is Pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-03T18:35:47 IST" name="Suite" finished-at="2024-11-03T18:36:27 IST" duration-ms="40375">
+    <groups>
+    </groups>
+    <test started-at="2024-11-03T18:35:47 IST" name="Test" finished-at="2024-11-03T18:36:27 IST" duration-ms="40375">
+      <class name="SeleniumPackage1.SeleniumProject1.Amz_Registration_Test">
+        <test-method is-config="true" signature="LaunchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amz_Registration_Test@11392934]" started-at="2024-11-03T18:35:56 IST" name="LaunchAmazon" finished-at="2024-11-03T18:36:01 IST" duration-ms="4926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAmazon -->
+        <test-method signature="Registration_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amz_Registration_Test@11392934]" started-at="2024-11-03T18:36:01 IST" name="Registration_Test" data-provider="input" finished-at="2024-11-03T18:36:07 IST" duration-ms="5738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandeep Kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9625036605]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India@4321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Registration_Test -->
+        <test-method is-config="true" signature="QuitAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amz_Registration_Test@11392934]" started-at="2024-11-03T18:36:07 IST" name="QuitAmazon" finished-at="2024-11-03T18:36:07 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitAmazon -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amz_Registration_Test -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amz_LoginTest">
+        <test-method is-config="true" signature="LaunchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amz_LoginTest@6892b3b6]" started-at="2024-11-03T18:36:07 IST" name="LaunchAmazon" finished-at="2024-11-03T18:36:10 IST" duration-ms="2894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAmazon -->
+        <test-method signature="LoginTest()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amz_LoginTest@6892b3b6]" started-at="2024-11-03T18:36:10 IST" name="LoginTest" finished-at="2024-11-03T18:36:19 IST" duration-ms="8724" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="QuitAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amz_LoginTest@6892b3b6]" started-at="2024-11-03T18:36:19 IST" name="QuitAmazon" finished-at="2024-11-03T18:36:19 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitAmazon -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amz_LoginTest -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amz_Homepage_Test">
+        <test-method is-config="true" signature="LaunchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amz_Homepage_Test@130c12b7]" started-at="2024-11-03T18:35:47 IST" name="LaunchAmazon" finished-at="2024-11-03T18:35:54 IST" duration-ms="7169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAmazon -->
+        <test-method signature="Homepage_Test()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amz_Homepage_Test@130c12b7]" started-at="2024-11-03T18:35:54 IST" name="Homepage_Test" finished-at="2024-11-03T18:35:55 IST" duration-ms="1626" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Homepage_Test -->
+        <test-method is-config="true" signature="QuitAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amz_Homepage_Test@130c12b7]" started-at="2024-11-03T18:35:56 IST" name="QuitAmazon" finished-at="2024-11-03T18:35:56 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitAmazon -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amz_Homepage_Test -->
+      <class name="SeleniumPackage1.SeleniumProject1.Amz_LoginFail_Test">
+        <test-method is-config="true" signature="LaunchAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amz_LoginFail_Test@6e6f2380]" started-at="2024-11-03T18:36:19 IST" name="LaunchAmazon" finished-at="2024-11-03T18:36:25 IST" duration-ms="5352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAmazon -->
+        <test-method signature="Login_Fail_Test(java.lang.String)[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amz_LoginFail_Test@6e6f2380]" started-at="2024-11-03T18:36:25 IST" name="Login_Fail_Test" data-provider="inputvalue" finished-at="2024-11-03T18:36:27 IST" duration-ms="1872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@yopmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_Fail_Test -->
+        <test-method is-config="true" signature="QuitAmazon()[pri:0, instance:SeleniumPackage1.SeleniumProject1.Amz_LoginFail_Test@6e6f2380]" started-at="2024-11-03T18:36:27 IST" name="QuitAmazon" finished-at="2024-11-03T18:36:27 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitAmazon -->
+      </class> <!-- SeleniumPackage1.SeleniumProject1.Amz_LoginFail_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
